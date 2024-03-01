@@ -1,0 +1,15 @@
+{
+    "name": "kohki/relative-articles",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kohki\\RelativeArticles\\": "src/"
+        }
+    },
+    "require": {
+        "fieg/bayes": "^1.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "youaoi/php-mecab": "^1.0"
+    }
+}
